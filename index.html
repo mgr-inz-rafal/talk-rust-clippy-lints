@@ -22,6 +22,12 @@
 		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
 		document.getElementsByTagName('head')[0].appendChild(link);
 	</script>
+
+	<style>
+		.explanation {
+			color: yellow;
+		}
+	</style>
 </head>
 
 <body>
@@ -29,8 +35,15 @@
 		<div class="slides">
 			<section data-markdown data-separator="---" data-separator-vertical="--">
 				<script type="text/template">
-							## Demo 1
-							Slide 1
+							```rust
+							let vec = vec![1, 2, 3];
+							if vec.len() > std::usize::MAX 
+							{
+									println!("Vector too big");
+							}
+							```
+							<p class="fragment"><b>absurd_extreme_comparisons</b></p>
+							<p class="fragment explanation">Checking if size is greater than max or if unsigned is less than 0 is superfluous</p>
 							---
 							## Demo 1
 							Slide 2

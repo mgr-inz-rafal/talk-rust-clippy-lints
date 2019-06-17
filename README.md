@@ -1,6 +1,7 @@
 # Funny
 
 ## absurd_extreme_comparisons
+Done
 
 ## float_arithmetic
 
@@ -46,6 +47,24 @@
 
 ## option_option (a wincyj?)
 
+## similar_names
+
+## suspicious_arithmetic_impl
+
+## trivial_regex
+
+## type_complexity
+
+## unreadable_literal
+
+## unsafe_removed_from_name
+
+## while_immutable_condition
+
+## zero_prefixed_literal
+
+## zero_width_space
+
 # Style
 
 ## chars_last_cmp / chars_next_cmp
@@ -55,6 +74,12 @@
 ## duplicate_underscore_argument
 
 ## for_kv_map
+
+## single_match / single_match_else (if let zamiast match)
+
+## too_many_arguments
+
+## too_many_lines
 
 # Other
 
@@ -87,6 +112,10 @@
 ## ifs_same_cond / match_same_arms
 
 ## linkedlist
+
+## search_is_some
+
+## short_circuit_statement
 
 # Do obadania
 
