@@ -50,7 +50,7 @@ Done
 
 ## implicit_return / needless_return
 
-## option_option (a wincyj?)
+## option_option
 
 ## similar_names
 Done
@@ -59,6 +59,7 @@ Done
 Done
 
 ## trivial_regex
+Done
 
 ## type_complexity
 Done
@@ -84,7 +85,7 @@ Done
 
 ## for_kv_map
 
-## single_match / single_match_else (if let zamiast match)
+## single_match / single_match_else (if let instead of match)
 
 ## too_many_arguments
 Mentioned in `many_single_char_names`
@@ -116,18 +117,20 @@ Mentioned in `many_single_char_names`
 ## checked_conversions
 
 ## get_last_with_len
+Unknown lint?
 
 ## if_same_then_else
 
 ## ifs_same_cond / match_same_arms
 
 ## linkedlist
+Can't make it to work
 
 ## search_is_some
 
 ## short_circuit_statement
 
-# Do obadania
+# Candidates
 
 ## copy_iterator
 

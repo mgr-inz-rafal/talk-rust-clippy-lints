@@ -102,7 +102,7 @@
 							}
 							```						
 							<p class="fragment"><b>suspicious_arithmetic_impl</b></p>
-							<p class="fragment explanation">Detect potential copy&paste error when implementing arithmetic traits</p>
+							<p class="fragment explanation">Detect potential copy&paste errors when implementing arithmetic traits</p>
 							---
 							```rust
 							let obj: Rc<Vec<Vec<Box<(u32, i32, u8, String)>>>>;
@@ -144,6 +144,12 @@
 							```						
 							<p class="fragment"><b>zero_prefixed_literal</b></p>
 							<p class="fragment explanation">Unlike in C/C++, in Rust the leading zero doesn't mean anyting special. Use the octal prefix explicitely (0o123)</p>
+							---
+							```rust
+							let r = Regex::new("^kotlet");
+							```						
+							<p class="fragment"><b>trivial_regex</b></p>
+							<p class="fragment explanation">There's a more straightforward alternative available (str::starts_with)</p>
 							</script>
 			</section>
 		</div>
