@@ -59,30 +59,30 @@
 							<p class="fragment explanation">Do not use placeholder names like ("foo", "bar", "baz", "quux" is the default set)</p>
 							---
 							```
-							fn main() {
 								let a = 1;
 								let b = a + 2;
 								let c = b + 3;
 								let d = c + b + a;
 								let e = a * d;
-								println!("{}", e);
-							}
 							```
 							<p class="fragment"><b>many_single_char_names</b></p>
 							<p class="fragment explanation">It's hard to memorize too many variables without descriptive names</p>
 							---
 							```
-							fn main() {
 								let a = 0x1FFa;
 								println!("{}", a);
-							}
 							```
 							<p class="fragment"><b>mixed_case_hex_literals</b></p>
 							<p class="fragment explanation">Looks confusing</p>
 							---
-							## Demo 1
-							Slide 3
-						</script>
+							```
+							let object_ptr = 2;
+							let objectptr = 3;
+							```
+							<p class="fragment"><b>similar_names</b></p>
+							<p class="fragment explanation">Confusing and error prone</p>
+							---
+							</script>
 			</section>
 		</div>
 	</div>
