@@ -54,6 +54,7 @@ Done
 Done
 
 ## suspicious_arithmetic_impl
+Done
 
 ## trivial_regex
 

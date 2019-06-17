@@ -82,6 +82,23 @@
 							<p class="fragment"><b>similar_names</b></p>
 							<p class="fragment explanation">Confusing and error prone</p>
 							---
+							```
+							struct Kotlet {
+								i: i32,
+							}
+						
+							impl Add for Kotlet {
+									type Output = Self;
+						
+									fn add(self, other: Self) -> Self {
+											Self {
+													i: self.i - other.i,
+											}
+									}
+							}
+							```						
+							<p class="fragment"><b>suspicious_arithmetic_impl</b></p>
+							<p class="fragment explanation">Detect potential copy&paste error when implementing arithmetic traits</p>
 							</script>
 			</section>
 		</div>
