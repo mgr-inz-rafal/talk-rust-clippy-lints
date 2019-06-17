@@ -45,7 +45,7 @@
 							<p class="fragment"><b>absurd_extreme_comparisons</b></p>
 							<p class="fragment explanation">Checking if size is greater than max or if unsigned is less than 0 is superfluous</p>
 							---
-							```
+							```rust
 							fn foo() -> u32 {
 								42
 							}
@@ -58,7 +58,7 @@
 							<p class="fragment"><b>blacklisted_name</b></p>
 							<p class="fragment explanation">Do not use placeholder names like ("foo", "bar", "baz", "quux" is the default set)</p>
 							---
-							```
+							```rust
 								let a = 1;
 								let b = a + 2;
 								let c = b + 3;
@@ -68,21 +68,21 @@
 							<p class="fragment"><b>many_single_char_names</b></p>
 							<p class="fragment explanation">It's hard to memorize too many variables without descriptive names. There is also too_many_arguments that keeps an eye on the number of function arguments</p>
 							---
-							```
+							```rust
 								let a = 0x1FFa;
 								println!("{}", a);
 							```
 							<p class="fragment"><b>mixed_case_hex_literals</b></p>
 							<p class="fragment explanation">Looks confusing</p>
 							---
-							```
+							```rust
 							let object_ptr = 2;
 							let objectptr = 3;
 							```
 							<p class="fragment"><b>similar_names</b></p>
 							<p class="fragment explanation">Confusing and error prone</p>
 							---
-							```
+							```rust
 							struct Kotlet {
 								i: i32,
 							}
@@ -100,19 +100,19 @@
 							<p class="fragment"><b>suspicious_arithmetic_impl</b></p>
 							<p class="fragment explanation">Detect potential copy&paste error when implementing arithmetic traits</p>
 							---
-							```
+							```rust
 							let obj: Rc<Vec<Vec<Box<(u32, i32, u8, String)>>>>;
 							```						
 							<p class="fragment"><b>type_complexity</b></p>
 							<p class="fragment explanation">Avoid using complex types. Can be masked by explicitely using 'type' definition</p>
 							---
-							```
+							```rust
 							let x = 8734876538761232;
 							```						
 							<p class="fragment"><b>unreadable_literal</b></p>
 							<p class="fragment explanation">Consider adding separators for clarity (8_734_876_538_761_232)</p>
 							---
-							```
+							```rust
 							use std::cell::{UnsafeCell as TotallySafeCell};
 
 							fn main() {
@@ -122,19 +122,19 @@
 							<p class="fragment"><b>unsafe_removed_from_name</b></p>
 							<p class="fragment explanation">Try to sneak unsafe type, similar to "#define true false" in C</p>
 							---
-							```
+							```rust
 							let x = 4 + 7;
 							```						
 							<p class="fragment"><b>integer_arithmetic</b></p>
 							<p class="fragment explanation">Will panic! in debug, and simply overflow in release for the sake of performance</p>
 							---
-							```
+							```rust
 							let x = 4.0 + 7.0;
 							```						
 							<p class="fragment"><b>float_arithmetic</b></p>
 							<p class="fragment explanation">This just allow you to detect all floating point arithmetic. Might be useful when you start porting your app to embedded systems</p>
 							---
-							```
+							```rust
 							let a = 0123;
 							println!("{}", a);
 							```						
