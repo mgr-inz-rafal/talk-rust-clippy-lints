@@ -127,6 +127,12 @@
 							```						
 							<p class="fragment"><b>integer_arithmetic</b></p>
 							<p class="fragment explanation">Will panic! in debug, and simply overflow in release for the sake of performance</p>
+							---
+							```
+							let x = 4.0 + 7.0;
+							```						
+							<p class="fragment"><b>float_arithmetic</b></p>
+							<p class="fragment explanation">This just allow you to detect all floating point arithmetic. Might be useful when you start porting your app to embedded systems</p>
 							</script>
 			</section>
 		</div>
