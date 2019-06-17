@@ -8,6 +8,7 @@ Done
 ## almost_swapped / manual_swap
 
 ## blacklisted_name
+Done
 
 ## decimal_literal_representation
 
