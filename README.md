@@ -36,6 +36,7 @@ Done
 ## mistyped_literal_suffixes
 
 ## mixed_case_hex_literals
+Done
 
 ## modulo_one
 
