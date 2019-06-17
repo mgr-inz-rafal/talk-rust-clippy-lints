@@ -59,6 +59,7 @@ Done
 ## trivial_regex
 
 ## type_complexity
+Done
 
 ## unreadable_literal
 

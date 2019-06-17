@@ -99,6 +99,12 @@
 							```						
 							<p class="fragment"><b>suspicious_arithmetic_impl</b></p>
 							<p class="fragment explanation">Detect potential copy&paste error when implementing arithmetic traits</p>
+							---
+							```
+							let obj: Rc<Vec<Vec<Box<(u32, i32, u8, String)>>>>;
+							```						
+							<p class="fragment"><b>type_complexity</b></p>
+							<p class="fragment explanation">Avoid using complex types. Can be masked by explicitely using 'type' definition</p>
 							</script>
 			</section>
 		</div>
