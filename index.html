@@ -121,6 +121,12 @@
 							```						
 							<p class="fragment"><b>unsafe_removed_from_name</b></p>
 							<p class="fragment explanation">Try to sneak unsafe type, similar to "#define true false" in C</p>
+							---
+							```
+							let x = 4 + 7;
+							```						
+							<p class="fragment"><b>integer_arithmetic</b></p>
+							<p class="fragment explanation">Will panic! in debug, and simply overflow in release for the sake of performance</p>
 							</script>
 			</section>
 		</div>

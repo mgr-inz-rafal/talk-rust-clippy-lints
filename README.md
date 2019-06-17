@@ -21,6 +21,7 @@ Done
 ## inconsistent_digit_grouping
 
 ## integer_arithmetic
+Done
 
 ## invalid_regex
 
