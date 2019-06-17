@@ -111,6 +111,16 @@
 							```						
 							<p class="fragment"><b>unreadable_literal</b></p>
 							<p class="fragment explanation">Consider adding separators for clarity (8_734_876_538_761_232)</p>
+							---
+							```
+							use std::cell::{UnsafeCell as TotallySafeCell};
+
+							fn main() {
+									let cell: TotallySafeCell<i32>;
+							}
+							```						
+							<p class="fragment"><b>unsafe_removed_from_name</b></p>
+							<p class="fragment explanation">Try to sneak unsafe type, similar to "#define true false" in C</p>
 							</script>
 			</section>
 		</div>
