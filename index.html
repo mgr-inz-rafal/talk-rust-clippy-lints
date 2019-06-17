@@ -45,8 +45,18 @@
 							<p class="fragment"><b>absurd_extreme_comparisons</b></p>
 							<p class="fragment explanation">Checking if size is greater than max or if unsigned is less than 0 is superfluous</p>
 							---
-							## Demo 1
-							Slide 2
+							```
+							fn foo() -> u32 {
+								42
+							}
+						
+							fn main() {
+								let bar = foo();
+								println!("{}", bar);
+							}							
+							```
+							<p class="fragment"><b>blacklisted_name</b></p>
+							<p class="fragment explanation">Do not use placeholder names like ("foo", "bar", "baz", "quux" is the default set)</p>
 							--
 							Slide 2.1
 							--
