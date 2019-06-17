@@ -88,6 +88,7 @@ Done
 ## single_match / single_match_else (if let zamiast match)
 
 ## too_many_arguments
+Mentioned in `many_single_char_names`
 
 ## too_many_lines
 
