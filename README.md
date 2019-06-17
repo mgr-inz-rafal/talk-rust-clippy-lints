@@ -31,6 +31,7 @@ Done
 ## len_without_is_empty / len_zero
 
 ## many_single_char_names
+Done
 
 ## mistyped_literal_suffixes
 
